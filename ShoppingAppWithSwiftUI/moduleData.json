@@ -38,6 +38,11 @@
         "name": "最近見た商品",
         "items": [
             {
+                "name": "サングラス",
+                "price": 5000,
+                "imageName": "sunglass"
+            },
+            {
                 "name": "ジャケット",
                 "price": 10000,
                 "imageName": "jacket"
@@ -73,9 +78,9 @@
         "name": "あなたにおすすめの商品",
         "items": [
             {
-                "name": "ジャケット",
-                "price": 10000,
-                "imageName": "jacket"
+                "name": "セーター",
+                "price": 7000,
+                "imageName": "sweater"
             },
             {
                 "name": "Tシャツ",
@@ -107,11 +112,6 @@
     {
         "name": "ほしいものリスト",
         "items": [
-            {
-                "name": "ジャケット",
-                "price": 10000,
-                "imageName": "jacket"
-            },
             {
                 "name": "Tシャツ",
                 "price": 2000,
