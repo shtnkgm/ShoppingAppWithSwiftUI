@@ -103,5 +103,40 @@
                 "imageName": "jeans"
             }
         ]
+    },
+    {
+        "name": "ほしいものリスト",
+        "items": [
+            {
+                "name": "ジャケット",
+                "price": 10000,
+                "imageName": "jacket"
+            },
+            {
+                "name": "Tシャツ",
+                "price": 2000,
+                "imageName": "tshirts"
+            },
+            {
+                "name": "ジーンズ",
+                "price": 8000,
+                "imageName": "jeans"
+            },
+            {
+                "name": "ジャケット",
+                "price": 10000,
+                "imageName": "jacket"
+            },
+            {
+                "name": "Tシャツ",
+                "price": 2000,
+                "imageName": "tshirts"
+            },
+            {
+                "name": "ジーンズ",
+                "price": 8000,
+                "imageName": "jeans"
+            }
+        ]
     }
 ]

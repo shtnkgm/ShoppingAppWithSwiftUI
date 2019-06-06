@@ -18,9 +18,12 @@ struct ModuleView : View {
                     .font(.headline)
                     .padding(.top, 8)
                 Spacer()
-                Text("もっと見る")
-                    .font(.subheadline)
-                    .color(Color.blue)
+                Button(action: {
+                }) {
+                    Text("もっと見る")
+                        .font(.subheadline)
+                        .color(Color.blue)
+                }
                     .padding(.top, 8)
             }
             
