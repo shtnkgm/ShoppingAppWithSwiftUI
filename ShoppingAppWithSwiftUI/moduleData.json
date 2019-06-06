@@ -1,0 +1,107 @@
+[
+    {
+        "name": "購入履歴",
+        "items": [
+            {
+                "name": "ジャケット",
+                "price": 10000,
+                "imageName": "jacket"
+            },
+            {
+                "name": "Tシャツ",
+                "price": 2000,
+                "imageName": "tshirts"
+            },
+            {
+                "name": "ジーンズ",
+                "price": 8000,
+                "imageName": "jeans"
+            },
+            {
+                "name": "ジャケット",
+                "price": 10000,
+                "imageName": "jacket"
+            },
+            {
+                "name": "Tシャツ",
+                "price": 2000,
+                "imageName": "tshirts"
+            },
+            {
+                "name": "ジーンズ",
+                "price": 8000,
+                "imageName": "jeans"
+            }
+        ]
+    },
+    {
+        "name": "最近見た商品",
+        "items": [
+            {
+                "name": "ジャケット",
+                "price": 10000,
+                "imageName": "jacket"
+            },
+            {
+                "name": "Tシャツ",
+                "price": 2000,
+                "imageName": "tshirts"
+            },
+            {
+                "name": "ジーンズ",
+                "price": 8000,
+                "imageName": "jeans"
+            },
+            {
+                "name": "ジャケット",
+                "price": 10000,
+                "imageName": "jacket"
+            },
+            {
+                "name": "Tシャツ",
+                "price": 2000,
+                "imageName": "tshirts"
+            },
+            {
+                "name": "ジーンズ",
+                "price": 8000,
+                "imageName": "jeans"
+            }
+        ]
+    },
+    {
+        "name": "あなたにおすすめの商品",
+        "items": [
+            {
+                "name": "ジャケット",
+                "price": 10000,
+                "imageName": "jacket"
+            },
+            {
+                "name": "Tシャツ",
+                "price": 2000,
+                "imageName": "tshirts"
+            },
+            {
+                "name": "ジーンズ",
+                "price": 8000,
+                "imageName": "jeans"
+            },
+            {
+                "name": "ジャケット",
+                "price": 10000,
+                "imageName": "jacket"
+            },
+            {
+                "name": "Tシャツ",
+                "price": 2000,
+                "imageName": "tshirts"
+            },
+            {
+                "name": "ジーンズ",
+                "price": 8000,
+                "imageName": "jeans"
+            }
+        ]
+    }
+]
