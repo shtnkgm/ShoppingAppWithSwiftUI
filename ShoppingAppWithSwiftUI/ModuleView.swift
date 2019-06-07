@@ -18,13 +18,12 @@ struct ModuleView : View {
                     .font(.headline)
                     .padding(.top, 8)
                 Spacer()
-                Button(action: {
-                }) {
-                    Text("もっと見る")
-                        .font(.subheadline)
-                        .color(Color.blue)
-                }
-                    .padding(.top, 8)
+                NavigationButton(
+                    destination: MoreInfoView()) {
+                        Text("もっと見る")
+                            .font(.subheadline)
+                            .color(Color.blue)
+                }.padding(.top, 8)
             }
             
             ScrollView(showsHorizontalIndicator: false) {
@@ -33,6 +32,9 @@ struct ModuleView : View {
                         NavigationButton(
                         destination: ItemDetailView(item: item)) {
                             ItemView(item: item)
+//                            ItemView(item: item)
+//                                .shadow(radius: 4)
+//                                .cornerRadius(8)
                         }
                     }
                 }
