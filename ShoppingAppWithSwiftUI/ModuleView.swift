@@ -32,9 +32,8 @@ struct ModuleView : View {
                         NavigationButton(
                         destination: ItemDetailView(item: item)) {
                             ItemView(item: item)
-//                            ItemView(item: item)
-//                                .shadow(radius: 4)
-//                                .cornerRadius(8)
+                                .shadow(radius: 4)
+                                .cornerRadius(8)
                         }
                     }
                 }
