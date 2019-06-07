@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  ShoppingAppWithSwiftUI
 //
 //  Created by Shota Nakagami on 2019/06/06.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView : View {
+struct HomeView : View {
     var body: some View {
         NavigationView {
             List(moduleData.identified(by: \.name)) { module in
