@@ -30,7 +30,10 @@ struct ModuleView : View {
             ScrollView(showsHorizontalIndicator: false) {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(module.items.identified(by: \.name)) { item in
-                        ItemView(item: item)
+                        NavigationButton(
+                        destination: ItemDetailView(item: item)) {
+                            ItemView(item: item)
+                        }
                     }
                 }
                 }

@@ -22,6 +22,7 @@
 		DA67F1E122A95320009DA0D0 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA67F1E022A95320009DA0D0 /* ItemView.swift */; };
 		DA67F1E322A960CE009DA0D0 /* bannerData.json in Resources */ = {isa = PBXBuildFile; fileRef = DA67F1E222A960CE009DA0D0 /* bannerData.json */; };
 		DA67F1E522A96106009DA0D0 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA67F1E422A96106009DA0D0 /* Banner.swift */; };
+		DA96516B22AADA6200F967ED /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96516A22AADA6200F967ED /* ItemDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		DA67F1E022A95320009DA0D0 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		DA67F1E222A960CE009DA0D0 /* bannerData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bannerData.json; sourceTree = "<group>"; };
 		DA67F1E422A96106009DA0D0 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		DA96516A22AADA6200F967ED /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +81,12 @@
 				DA67F1C422A94F22009DA0D0 /* ContentView.swift */,
 				DA67F1DE22A95311009DA0D0 /* ModuleView.swift */,
 				DA67F1E022A95320009DA0D0 /* ItemView.swift */,
+				DA96516A22AADA6200F967ED /* ItemDetailView.swift */,
 				DA67F1D422A94FB7009DA0D0 /* Module.swift */,
 				DA67F1D622A94FEC009DA0D0 /* Item.swift */,
-				DA67F1E422A96106009DA0D0 /* Banner.swift */,
 				DA67F1D822A95023009DA0D0 /* Function.swift */,
 				DA67F1DA22A95061009DA0D0 /* Data.swift */,
+				DA67F1E422A96106009DA0D0 /* Banner.swift */,
 				DA67F1C622A94F23009DA0D0 /* Assets.xcassets */,
 				DA67F1DC22A950A6009DA0D0 /* moduleData.json */,
 				DA67F1E222A960CE009DA0D0 /* bannerData.json */,
@@ -178,6 +181,7 @@
 				DA67F1DB22A95061009DA0D0 /* Data.swift in Sources */,
 				DA67F1D722A94FEC009DA0D0 /* Item.swift in Sources */,
 				DA67F1C122A94F22009DA0D0 /* AppDelegate.swift in Sources */,
+				DA96516B22AADA6200F967ED /* ItemDetailView.swift in Sources */,
 				DA67F1D522A94FB7009DA0D0 /* Module.swift in Sources */,
 				DA67F1E122A95320009DA0D0 /* ItemView.swift in Sources */,
 				DA67F1DF22A95311009DA0D0 /* ModuleView.swift in Sources */,

@@ -14,7 +14,7 @@ struct ContentView : View {
             List(moduleData.identified(by: \.name)) { module in
                 ModuleView(module: module)
             }
-                .navigationBarTitle(Text("Home"))
+                .navigationBarTitle(Text("Shopping"))
         }
     }
 }

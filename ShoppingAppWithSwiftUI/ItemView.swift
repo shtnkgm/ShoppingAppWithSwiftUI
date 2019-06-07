@@ -19,6 +19,7 @@ struct ItemView : View {
                 .clipped()
             Text(item.name)
                 .font(.subheadline)
+                .lineLimit(nil)
             Text("\(item.price)円")
                 .font(.caption)
                 .color(Color.gray)
