@@ -21,7 +21,7 @@ struct ModuleHeaderView : View {
             destination: MoreInfoView()) {
                 Text("もっと見る")
                     .font(.subheadline)
-                    .color(Color.blue)
+                    .color(.blue)
                 }.padding(.top, 8)
         }
     }
