@@ -9,11 +9,18 @@
 import SwiftUI
 
 struct HomeView : View {
+    @ObjectBinding var searchViewModel = SearchViewModel()
+    
     var body: some View {
         NavigationView {
-            List(moduleData.identified(by: \.name)) { module in
-                ModuleView(module: module)
-            }.navigationBarTitle(Text("Shopping"))
+            VStack {
+                HomeSearchBar(text: searchViewModel[\.text]) {
+                    self.searchViewModel.search()
+                }
+                List(moduleData.identified(by: \.name)) { module in
+                    ModuleView(module: module)
+                }
+                }.navigationBarTitle(Text("Shopping"))
         }
     }
 }
