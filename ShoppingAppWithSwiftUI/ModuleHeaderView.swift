@@ -12,17 +12,8 @@ struct ModuleHeaderView : View {
     let title: String
     
     var body: some View {
-        HStack {
-            Text(title)
-                .font(.headline)
-                .padding(.top, 8)
-            Spacer()
-            NavigationButton(
-            destination: MoreInfoView()) {
-                Text("もっと見る")
-                    .font(.subheadline)
-                    .color(.blue)
-                }.padding(.top, 8)
-        }
+        Text(title)
+            .font(.headline)
+            .padding(.top, 8)
     }
 }

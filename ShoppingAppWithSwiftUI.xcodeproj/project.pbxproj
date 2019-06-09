@@ -26,7 +26,6 @@
 		DA8FEED622AD7E450060E06D /* HomeSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8FEED522AD7E450060E06D /* HomeSearchBar.swift */; };
 		DA8FEED822AD7F060060E06D /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8FEED722AD7F060060E06D /* SearchViewModel.swift */; };
 		DA96516B22AADA6200F967ED /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96516A22AADA6200F967ED /* ItemDetailView.swift */; };
-		DA96516D22AAE19300F967ED /* MoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96516C22AAE19300F967ED /* MoreInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +50,6 @@
 		DA8FEED522AD7E450060E06D /* HomeSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchBar.swift; sourceTree = "<group>"; };
 		DA8FEED722AD7F060060E06D /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		DA96516A22AADA6200F967ED /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
-		DA96516C22AAE19300F967ED /* MoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +91,6 @@
 				DA67F1DE22A95311009DA0D0 /* ModuleView.swift */,
 				DA67F1E022A95320009DA0D0 /* ItemView.swift */,
 				DA96516A22AADA6200F967ED /* ItemDetailView.swift */,
-				DA96516C22AAE19300F967ED /* MoreInfoView.swift */,
 				DA67F1D422A94FB7009DA0D0 /* Module.swift */,
 				DA67F1D622A94FEC009DA0D0 /* Item.swift */,
 				DA67F1D822A95023009DA0D0 /* Function.swift */,
@@ -199,7 +196,6 @@
 				DA8FEED822AD7F060060E06D /* SearchViewModel.swift in Sources */,
 				DA67F1E122A95320009DA0D0 /* ItemView.swift in Sources */,
 				DA67F1DF22A95311009DA0D0 /* ModuleView.swift in Sources */,
-				DA96516D22AAE19300F967ED /* MoreInfoView.swift in Sources */,
 				DA8FEED222ACBE1A0060E06D /* ModuleHeaderView.swift in Sources */,
 				DA67F1D922A95023009DA0D0 /* Function.swift in Sources */,
 				DA67F1E522A96106009DA0D0 /* Banner.swift in Sources */,
