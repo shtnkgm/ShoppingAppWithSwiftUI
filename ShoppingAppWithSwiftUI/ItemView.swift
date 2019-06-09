@@ -15,16 +15,16 @@ struct ItemView : View {
         VStack(alignment: .leading) {
             Image(item.imageName)
                 .resizable()
-                .frame(width: 90, height: 90)
                 .clipped()
+                .frame(width: 90, height: 90)
             Text(item.name)
-                .font(.subheadline)
+                .font(.body)
                 .lineLimit(nil)
             Text("\(item.price)円")
                 .font(.caption)
                 .color(Color.gray)
-        }
-            .padding(EdgeInsets(top: 8, leading: 8, bottom: 8, trailing: 8))
+        }.frame(width: 90)
+            .padding(.all, 8)
     }
 }
 
