@@ -18,16 +18,16 @@ struct ItemView : View {
                 .resizable()
                 .clipped()
                 .frame(width: 100, height: 100)
-            Group {
-            Text(item.name)
-                .color(.primary)
-                .font(.caption)
-                .lineLimit(nil)
-            Text("\(item.price)円")
-                .font(.caption)
-                .color(.gray)
-            }.padding(.horizontal, 8)
-        }.frame(width: 90)
+            VStack(alignment: .leading) {
+                Text(item.name)
+                    .color(.primary)
+                    .font(.caption)
+                    .lineLimit(nil)
+                Text("\(item.price)円")
+                    .font(.caption)
+                    .color(.gray)
+                }.padding(.horizontal, 8)
+            }.frame(width: 90)
         
     }
 }
