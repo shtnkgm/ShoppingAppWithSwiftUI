@@ -13,8 +13,7 @@ struct HomeView : View {
         NavigationView {
             List(moduleData.identified(by: \.name)) { module in
                 ModuleView(module: module)
-            }
-                .navigationBarTitle(Text("Shopping"))
+            }.navigationBarTitle(Text("Shopping"))
         }
     }
 }

@@ -13,18 +13,7 @@ struct ModuleView : View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            HStack {
-                Text(module.name)
-                    .font(.headline)
-                    .padding(.top, 8)
-                Spacer()
-                NavigationButton(
-                    destination: MoreInfoView()) {
-                        Text("もっと見る")
-                            .font(.subheadline)
-                            .color(Color.blue)
-                }.padding(.top, 8)
-            }
+            ModuleHeaderView(title: module.name)
             
             ScrollView(showsHorizontalIndicator: false) {
                 HStack(alignment: .top, spacing: 0) {
