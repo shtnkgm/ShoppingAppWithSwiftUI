@@ -17,16 +17,18 @@ struct ItemView : View {
                 .renderingMode(.original)
                 .resizable()
                 .clipped()
-                .frame(width: 90, height: 90)
+                .frame(width: 100, height: 100)
+            Group {
             Text(item.name)
                 .color(.primary)
-                .font(.body)
+                .font(.caption)
                 .lineLimit(nil)
             Text("\(item.price)円")
                 .font(.caption)
                 .color(.gray)
+            }.padding(.horizontal, 8)
         }.frame(width: 90)
-            .padding(.all, 8)
+        
     }
 }
 

@@ -16,13 +16,14 @@ struct ModuleView : View {
             ModuleHeaderView(title: module.name)
             
             ScrollView(showsHorizontalIndicator: false) {
-                HStack(alignment: .top, spacing: 0) {
+                HStack(alignment: .top, spacing: 16) {
                     ForEach(module.items.identified(by: \.name)) { item in
                         NavigationButton(
                         destination: ItemDetailView(item: item)) {
                             ItemView(item: item)
-                                .shadow(radius: 4)
+                                .border(Color.gray, width: 0)
                                 .cornerRadius(8)
+                                .shadow(radius: 4)
                         }
                     }
                 }
