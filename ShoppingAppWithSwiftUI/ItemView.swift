@@ -17,17 +17,20 @@ struct ItemView : View {
                 .renderingMode(.original)
                 .resizable()
                 .clipped()
-                .frame(width: 100, height: 100)
+                .frame(width: 140, height: 140)
             VStack(alignment: .leading) {
                 Text(item.name)
                     .color(.primary)
                     .font(.caption)
                     .lineLimit(nil)
-                Text("\(item.price)円")
+                Text("¥\(item.price)")
                     .font(.caption)
                     .color(.gray)
-                }.padding(.horizontal, 8)
-            }.frame(width: 90)
+                }.padding(.horizontal, 10)
+            }
+            .padding(.bottom, 10)
+            .background(Color.white)
+            .cornerRadius(12)
         
     }
 }

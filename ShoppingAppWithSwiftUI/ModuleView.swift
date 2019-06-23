@@ -21,15 +21,14 @@ struct ModuleView : View {
                         NavigationButton(
                         destination: ItemDetailView(item: item)) {
                             ItemView(item: item)
-                                .border(Color.gray, width: 0)
-                                .cornerRadius(8)
-                                .shadow(color: .red, radius: 4)
                                 .padding(.all, 8)
                         }
                     }
                 }
                 }
-                .frame(height: 160)
+                .frame(height: 210)
+                .shadow(radius: 20)
+            
         }
     }
 }
