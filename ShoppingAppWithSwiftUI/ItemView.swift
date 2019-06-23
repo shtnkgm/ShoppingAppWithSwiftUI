@@ -25,7 +25,7 @@ struct ItemView : View {
                     .lineLimit(nil)
                 Text("¥\(item.price)")
                     .font(.caption)
-                    .color(.gray)
+                    .color(.secondary)
                 }.padding(.horizontal, 10)
             }
             .padding(.bottom, 10)
