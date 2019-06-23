@@ -16,11 +16,11 @@ struct HomeView : View {
             VStack {
                 HomeSearchBar(text: searchViewModel[\.text]) {
                     self.searchViewModel.search()
-                }
+                }.padding(.vertical, 10)
                 List(moduleData.identified(by: \.name)) { module in
                     ModuleView(module: module)
-                }
-                }.navigationBarTitle(Text("Shopping"))
+                }.padding(.vertical, 10)
+                }.navigationBarTitle(Text("SwiftUI Shopping"))
         }
     }
 }
