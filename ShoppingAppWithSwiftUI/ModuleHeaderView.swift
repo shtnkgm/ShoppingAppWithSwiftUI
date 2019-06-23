@@ -13,7 +13,7 @@ struct ModuleHeaderView : View {
     
     var body: some View {
         Text(title)
-            .font(.headline)
-            .padding(.top, 8)
+            .font(.title)
+            .padding(.top, 10)
     }
 }
